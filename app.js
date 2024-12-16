@@ -3,6 +3,7 @@ const connectDB = require("./config/db");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
 const authRoutes = require("./routes/authRoutes");
+const db = require("./config/db");
 
 dotenv.config();
 
